@@ -34,6 +34,10 @@ app.use(
         credentials: true, // Allow cookies and session data
     })
 );
+// Routes
+app.get("/", (req, res) => {
+    res.send("Server is running!");
+});
 
 app.use(express.static(join(process.cwd(), './public')));
 // `__dirname` is not available in ESM; use `process.cwd()` or `import.meta.url`
@@ -1107,8 +1111,4 @@ app.post("/apply-individual-tour", async (req, res) => {
         console.error("Error applying for individual tour:", error);
         return res.status(500).json({ error: "An error occurred while submitting the application." });
     }
-});
-
-app.listen(8080, () => {
-    console.log('Uygulama çalıştırıldı...');
 });
