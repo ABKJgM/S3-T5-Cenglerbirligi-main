@@ -1,0 +1,67 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+ 
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: black;
+}
+
+thead th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.verify-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.verify-button:hover {
+  background-color: #45a049;
+}
+
+
+.back-button {
+  margin-top: 20px;
+  margin-left: 670px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  
+  background-color: #bc0000;
+}
+
+.back-button:hover {
+  background-color: #bc0000;
+}
+
+
+

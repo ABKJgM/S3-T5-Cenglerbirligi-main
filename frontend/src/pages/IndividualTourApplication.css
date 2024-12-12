@@ -1,0 +1,99 @@
+.individual-tour-container {
+    width: 800px;
+    min-width: 800px;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #ffffff, #d0d0d0);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .individual-tour-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #02006c;
+    margin-bottom: 20px;
+  }
+  
+  .individual-tour-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .individual-tour-container label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+  }
+  
+  .individual-tour-container input,
+  .individual-tour-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0072ff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  .individual-tour-container input:hover,
+  .individual-tour-container select:hover {
+    border-color: #005bb5;
+    box-shadow: 0 0 8px rgba(0, 114, 255, 0.3);
+  }
+  
+  .individual-tour-container input:focus,
+  .individual-tour-container select:focus {
+    border-color: #005bb5;
+    box-shadow: 0 0 8px rgba(0, 114, 255, 0.5);
+  }
+  
+  .individual-tour-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .individual-tour-container button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .individual-tour-container p {
+    text-align: center;
+    font-size: 14px;
+    color: #0072ff;
+    margin-top: 20px;
+  }
+  
+
+  .home {
+    position: absolute;
+    color: white;
+    padding: 0px 0px; /* Optional: Adjust padding for a better look */
+    border: none;
+    background-color: #bc0000; /* Optional: For better visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+}
+
+.individual-tour-container {
+  position: relative; /* Add this if not already present */
+}
+  
+  .home:hover {
+    transform: scale(1.1);
+  }
+  

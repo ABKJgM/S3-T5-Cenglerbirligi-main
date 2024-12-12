@@ -1,0 +1,317 @@
+{
+    "schools": [
+        {
+            "school_name": "ÖZEL ELİT EGE ANADOLU LİSESİ",
+            "city": "MANİSA",
+            "district": "YUNUSEMRE",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL MEZAİM KİRAZ ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "POLATLI",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL MUSTAFA KEMAL FİNAL ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL NESİBE AYDIN ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "GÖLBAŞI",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ÜÇFEN ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ÜSKÜDAR AMERİKAN LİSESİ",
+            "city": "İSTANBUL",
+            "district": "ÜSKÜDAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "TED ANKARA KOLEJİ VAKFI ÖZEL LİSESİ",
+            "city": "ANKARA",
+            "district": "GÖLBAŞI",
+            "total_people": 15
+        },
+        {
+            "school_name": "ÜMİTKÖY KIZ ANADOLU İMAM HATİP LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "AÇIK ÖĞRETİM LİSESİ",
+            "city": "",
+            "district": "MERKEZE BAĞLI TAŞRA",
+            "total_people": 4
+        },
+        {
+            "school_name": "ANKARA ÖZEL TEVFİK FİKRET ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 2
+        },
+        {
+            "school_name": "ANKARA TÜRK TELEKOM SOSYAL BİLİMLER LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "İHSAN DOĞRAMACI VAKFI ÖZEL BİLKENT LABORATUAR LİSESİ",
+            "city": "ERZURUM",
+            "district": "YAKUTİYE",
+            "total_people": 20
+        },
+        {
+            "school_name": "ÖZEL ANKARA ZAFER ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ETİMESGUT",
+            "total_people": 2
+        },
+        {
+            "school_name": "ÖZEL BALGAT UĞUR ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL BİLFEN ÇAYYOLU FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL BİLKENT LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 4
+        },
+        {
+            "school_name": "BETÜL CAN ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL AKHİSAR EKSEN OKULLARI FEN LİSESİ",
+            "city": "MANİSA",
+            "district": "AKHİSAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ANKARA ABC ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ETİMESGUT",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL BAHÇEŞEHİR DOĞA ANADOLU LİSESİ",
+            "city": "İSTANBUL",
+            "district": "BAŞAKŞEHİR",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ERYAMAN MODERN ORTADOĞU ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ETİMESGUT",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL MERSİN BAHÇEŞEHİR ANADOLU LİSESİ",
+            "city": "MERSİN",
+            "district": "TOROSLAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL NESİBE AYDIN FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "GÖLBAŞI",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL SEMBOL ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "İHSAN DOĞRAMACI VAKFI ÖZEL BİLKENT LABORATUAR LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 3
+        },
+        {
+            "school_name": "KARŞIYAKA ATAKENT ANADOLU LİSESİ",
+            "city": "İZMİR",
+            "district": "KARŞIYAKA",
+            "total_people": 1
+        },
+        {
+            "school_name": "MEHMET ZAKİR EKNİ ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ADIM ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL AKHİSAR KOLEJİ FEN LİSESİ",
+            "city": "MANİSA",
+            "district": "AKHİSAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL BEŞGEN ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ÇAĞRI FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "KEÇİÖREN",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ÇANKAYA EGEBİL ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL İDEA ANADOLU LİSESİ",
+            "city": "BURSA",
+            "district": "OSMANGAZİ",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL İZMİR AMERİKAN KOLEJİ",
+            "city": "İZMİR",
+            "district": "KONAK",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL MAVİ GÖL FİNAL ANADOLU LİSESİ",
+            "city": "ADANA",
+            "district": "ÇUKUROVA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL MEF LİSESİ",
+            "city": "İSTANBUL",
+            "district": "BEŞİKTAŞ",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL RÜZGAR FEN LİSESİ",
+            "city": "DİYARBAKIR",
+            "district": "BAĞLAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ŞENER ÇAKMAK FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL TARSUS AMERİKAN KOLEJİ",
+            "city": "MERSİN",
+            "district": "TARSUS",
+            "total_people": 1
+        },
+        {
+            "school_name": "ŞEHİT ÖMER HALİSDEMİR ANADOLU İMAM HATİP LİSESİ",
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "total_people": 1
+        },
+        {
+            "school_name": "ADANA ANADOLU LİSESİ",
+            "city": "ADANA",
+            "district": "ÇUKUROVA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ESENKENT OKYANUS FEN LİSESİ",
+            "city": "İSTANBUL",
+            "district": "ESENYURT",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL JALE TEZER ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "TEVFİK İLERİ ANADOLU İMAM HATİP LİSESİ",
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "total_people": 1
+        },
+        {
+            "school_name": "YAVUZ SULTAN SELİM FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "ŞEREFLİKOÇHİSAR",
+            "total_people": 1
+        },
+        {
+            "school_name": "GAZİ ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL ÇANKAYA BAHÇEŞEHİR KOLEJİ 50.YIL ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL KADİRLİ BAHÇEŞEHİR KOLEJİ FEN LİSESİ",
+            "city": "OSMANİYE",
+            "district": "KADİRLİ",
+            "total_people": 1
+        },
+        {
+            "school_name": "ATATÜRK ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "YENİMAHALLE",
+            "total_people": 1
+        },
+        {
+            "school_name": "AYRANCI ANADOLU LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇANKAYA",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL IĞDIR BAHÇEŞEHİR FEN LİSESİ",
+            "city": "IĞDIR",
+            "district": "MERKEZ",
+            "total_people": 1
+        },
+        {
+            "school_name": "ÖZEL YÜKSELEN FEN LİSESİ",
+            "city": "ANKARA",
+            "district": "ÇUBUK",
+            "total_people": 1
+        }
+    ],
+    "total_people": 5
+}

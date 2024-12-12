@@ -1,0 +1,27 @@
+/* Table Actions */
+.proposals-table button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.proposals-table button:first-child {
+    background-color: #28a745; /* Green for Approve */
+    margin-right: 10px;
+}
+
+.proposals-table button:first-child:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.proposals-table button:last-child {
+    background-color: #dc3545; /* Red for Deny */
+}
+
+.proposals-table button:last-child:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

@@ -1,0 +1,21 @@
+body, html {
+  min-width: 1000px; /* En küçük izin verilen genişlik */
+  overflow-x: auto; /* Yatay taşmayı engelle */
+
+}
+
+.outer {
+  display: grid;
+  grid-template-columns: 250px auto; /* Sidebar ve içerik */
+  height: 100vh; /* Tüm ekranı kapla */
+  gap: 10px;
+}
+
+.content {
+  margin: 20px;
+  grid-column: 2 / 3; /* İçerik sağ tarafta */
+  background: linear-gradient(to right, #ffffff, #ff1717);
+  padding: 20px;
+  overflow-y: auto; /* Taşma durumunda scroll */
+  border-radius: 10px; /* Kenarları yuvarla */
+}

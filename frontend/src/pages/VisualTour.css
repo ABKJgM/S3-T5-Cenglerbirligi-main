@@ -1,0 +1,54 @@
+.back-button60 {
+    margin-top: 20px;
+    margin-left: 670px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    
+    background-color:  #bb0000;
+  }
+  
+  .back-button60:hover {
+    background-color: #0b046c;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+
+.visual-tour-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0066cc, #003399); /* Updated background */
+    color: #ffffff; /* Text color for better contrast */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+.visual-tour-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger text */
+    color:  #bb0000; /* Distinct text color for better visibility */
+    text-shadow: 1px 1px 2px #000000; /* Add shadow for better readability */
+}
+
+#map-container {
+    width: 80%; /* Increased width */
+    height: 600px; /* Increased height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow around map */
+    border-radius: 8px; /* Rounded corners for map */
+    overflow: hidden;
+}
+
+gmp-map {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+

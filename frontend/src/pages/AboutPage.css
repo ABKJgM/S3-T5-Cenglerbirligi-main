@@ -1,0 +1,74 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(to right, #0066cc, #003366); /* Background gradient */
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Ensure vertical scrolling is enabled */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-header {
+    background: #003366; /* Solid dark blue header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    top: 0;
+    z-index: 10; /* Ensures header stays above content */
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 1.2rem;
+  }
+  
+
+  .home-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #bb0000; /* Button background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #003366; /* Darker blue on hover */
+  }
+  

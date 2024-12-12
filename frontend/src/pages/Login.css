@@ -1,0 +1,161 @@
+/* Genel düzen */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:#02006c;
+  overflow: hidden;
+}
+
+/* Ana konteyner */
+.container {
+  display: flex;
+  
+  width: 800px; /* Konteyner genişliği */
+  height: 500px;
+  max-width: 1200px;
+  background: linear-gradient(to left, #d0d0d0, #ffffff);;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgb(255, 255, 255),
+  0 -4px 8px rgb(255, 255, 255);
+  
+}
+
+/* Form alanı */
+.form-container {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sağdaki bilgi alanı */
+.info-container {
+  flex: 1;
+  background: linear-gradient(to right, #0088ff, #0f004c);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* Başlık */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Alt metin */
+p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Input alanları */
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.username-password_text{
+  color:#02006c;
+}
+.home {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  background-color: #bb0000;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.home:hover{
+  background-color: #02006c;;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Şifremi unuttum linki */
+.forgot-password {
+  font-size: 12px;
+  color:#02006c;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Genel buton stili */
+button {
+  margin-top: 20px;
+  background: transparent; /* Arka plan şeffaf */
+  border: 2px solid white; /* Beyaz çerçeve */
+  color: white; /* Yazı rengi beyaz */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white; /* Hoverda beyaz arka plan */
+  color:#02006c;; /* Yazı rengi mavi */
+}
+
+/* Giriş yap (Sign In) ve Şifre sıfırla (Reset Password) butonları */
+.sign-in-btn {
+  background:#02006c;/* Mavi arka plan */
+  color: white; /* Beyaz yazı */
+  border: 2px solid#02006c; /* Daha koyu mavi çerçeve */
+  
+}
+
+.sign-in-btn:hover {
+  background: white; /* Hoverda daha koyu mavi */
+  color: #02006c;
+}
+
+.reset-btn {
+  background: #ff5722; /* Turuncu arka plan */
+  color: white; /* Beyaz yazı */
+  border: 2px solid #e64a19; /* Daha koyu turuncu çerçeve */
+}
+
+.reset-btn:hover {
+  background: #e64a19; /* Hoverda daha koyu turuncu */
+  color: white;
+}
+
+.back-btn{
+  margin-bottom: 20px;
+}

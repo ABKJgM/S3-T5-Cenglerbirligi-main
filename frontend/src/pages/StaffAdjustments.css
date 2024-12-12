@@ -1,0 +1,197 @@
+.staff-adjustments {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+    max-width: 1200px;
+}
+
+.staff-adjustments h1 {
+    text-align: center;
+    color: #222;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.staff-sections {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.staff-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.staff-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(255, 255, 255, 0.8);
+}
+
+.staff-section h2 {
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid #0072ff;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #0072ff;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+td {
+    background: #fafafa;
+}
+
+td:hover {
+    background: #f0f8ff;
+    transition: background 0.3s;
+}
+
+.action-button {
+    padding: 8px 15px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1), -3px -3px 6px rgba(255, 255, 255, 0.8);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+}
+
+.action-button:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}
+
+.staff-adjustments-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.staff-tables-section {
+    flex: 2;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+}
+
+.register-form-section {
+    width: 480px;
+    flex: 1;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+}
+
+.register-form-section h2 {
+    margin-bottom: 15px;
+    color: #222;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.register-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-form-section label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555;
+}
+
+.register-form-section input,
+.register-form-section select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7);
+}
+
+.register-button {
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1), -3px -3px 6px rgba(255, 255, 255, 0.8);
+    transition: all 0.3s;
+}
+
+.register-button:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.8);
+}
+.delete-button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 15%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.delete-button:active {
+    background-color: #a93226;
+}

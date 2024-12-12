@@ -1,0 +1,61 @@
+.approved-tours-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.approved-tours-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.approved-tours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.approved-tours-table th,
+.approved-tours-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.approved-tours-table th {
+    background-color: #bc0000;
+    color: white;
+}
+
+.approved-tours-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.approved-tours-table button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto;
+}
+
+.approved-tours-table button:hover {
+    background-color: #0056b3;
+}
+
+.approved-tours-table .drop{
+    background-color: #bc0000;
+    margin-top: 10px;
+}
+.approved-tours-table .drop:hover{
+    background-color: #800000;
+}

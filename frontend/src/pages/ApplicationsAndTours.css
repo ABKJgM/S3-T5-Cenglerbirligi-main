@@ -1,0 +1,273 @@
+.applications-and-tours {
+  width: 1000px; /* İçeriği tam genişlikte tut */
+  max-width: 1200px; /* Maksimum genişlik */
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white; /* Beyaz arka plan */
+  margin: auto; /* Ortala */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Küçük ekranlarda alt alta gelmesini sağlar */
+}
+
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: 0.3s;
+  flex-grow: 1; /* Tablar eşit genişlikte olacak */
+  text-align: center;
+  border: 2px solid black;
+  color: black;
+}
+.tab:hover{
+  background: #cdcdcd;
+  transform: scale(1.01);
+}
+
+.tab.active {
+  background: #0072ff;
+  color: white;
+}
+
+table {
+  width: 100%;
+  font-size: 16;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: auto; /* Kolonların boyutlarını içerik belirler */
+}
+
+th,
+td {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .applications-and-tours {
+    width: 500px; /* İçeriği tam genişlikte tut */
+    max-width: 700px; /* Maksimum genişlik */
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: white; /* Beyaz arka plan */
+    margin: 0px; /* Ortala */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap; /* Küçük ekranlarda alt alta gelmesini sağlar */
+  }
+  
+  .tab {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: 0.3s;
+    flex-grow: 1; /* Tablar eşit genişlikte olacak */
+    text-align: center;
+  }
+  
+  .tab.active {
+    background: #0072ff;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    font-size: 10;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: auto; /* Kolonların boyutlarını içerik belirler */
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+}
+.districts-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.district-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.district-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.district-item:hover {
+  background-color: #e6f7ff;
+  transform: scale(1.02);
+}
+
+.district-item.active {
+  background-color: #0072ff;
+  color: #fff;
+}
+.applied-tours-table,
+.verified-tours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.applied-tours-table th,
+.applied-tours-table td,
+.verified-tours-table th,
+.verified-tours-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clickable-row:hover {
+  background-color: #f1f1f1;
+}
+
+.tour-details-row td {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.tour-details {
+  font-size: 14px;
+}
+
+.tour-details p {
+  margin: 7px 10px;
+}
+
+.tour-details strong {
+  font-weight: bold;
+
+}
+.tourDet{
+  margin-top: 0px;
+  font-weight: bold; 
+}
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.details-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.detail-buttons {
+  display: flex;
+  gap: 10px;
+  height: 60px;
+}
+
+.veri-button,
+.deny-button {
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.veri-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.veri-button:hover {
+  background-color: #45a049;
+}
+
+
+.deny-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.deny-button:hover {
+  background-color: #d32f2f;
+}
+
+.request-change-button {
+  background-color: #d1c328;
+  color:#0056b3;
+}
+
+
+.assign-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assign-btn:hover {
+  background-color: #0056b3;
+}
+
+.SortInfo{
+  font-style: italic;
+  font-size: 10px;
+  background-color: #cdcdcd;
+}
+
+

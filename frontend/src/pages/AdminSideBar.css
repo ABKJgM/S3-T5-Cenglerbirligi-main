@@ -1,0 +1,112 @@
+/* General Sidebar Styles */
+.sidebar {
+    position: fixed; /* Fix the sidebar to the far left */
+    top: 0;
+    left: 0;
+    max-height: 800px;
+    width: 15%;
+    min-width: 150px;
+    height: 100%;
+    background: linear-gradient(to right, #0088ff, #0f004c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    z-index: 100; /* Keeps it on top of other content */
+    box-shadow: none; /* Ensures no shadow */
+    overflow:auto;
+  }
+
+  a{
+    color: #fff;
+    text-decoration:none;
+  }
+  
+  /* Brand Name */
+  .brand-name {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    color: #fff;
+  }
+
+  .Guidename{
+    color: #c8c8c8;
+    font-weight: bold;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%; /* Ensure it fits the sidebar */
+    box-shadow: none; /* Ensures no shadow */
+    background: linear-gradient(to top, #0088ff, #0f004c);
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Navigation Menu */
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    flex-grow: 1; /* Push logout section to the bottom */
+  }
+
+  .logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .nav-item.active,
+  .nav-item:hover {
+    background: #bdbdbd;
+    color:  #02006c;
+  }
+  
+  .nav-item .icon {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Logout Section */
+
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .logout:hover {
+    background: #bc0000; /* Red color for hover */
+    font-size: larger;
+  }
+  
+  .logout .icon {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
